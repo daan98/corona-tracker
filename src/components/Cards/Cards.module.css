@@ -1,0 +1,18 @@
+.cardsContainer {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cardsGrid {
+    justify-content: space-between !important;
+}
+
+@media(max-width: 768px) {
+    .cardsContainer { width: 100%; }
+
+    .cardsGrid {
+        width: 100% !important;
+        margin: 0;
+    }
+}

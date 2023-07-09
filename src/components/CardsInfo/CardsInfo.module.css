@@ -1,0 +1,22 @@
+.card {
+    margin: 0 2% !important;
+}
+
+.infected {
+    border-bottom: 10px solid rgba(0, 0, 255, .5);
+}
+
+.hospitalized {
+    border-bottom: 10px solid rgba(255, 140, 0, .5);
+}
+
+.deaths {
+    border-bottom: 10px solid rgba(255, 0, 0, .5);
+}
+
+@media (max-width: 768px) {
+    .card {
+        padding: 5px 0 !important;
+        margin: 10px !important;
+    }
+}
